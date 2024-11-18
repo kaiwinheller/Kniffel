@@ -30,6 +30,8 @@ Bei der Endrpäsentation wird es ein (für die Noten nicht direkt relevantes) Tu
 </ul>
 
 <h2>Möglichkeiten zur Erweiterung</h2>
-- Sie erstellen ein Interface, welches es einem beliebigen Spieler Erlaubt, selber gegen den Bot Kniffel zu spielen. (Jupyer Notebooks, oder TKinter etc. sind erlaubt) Hierbei sollten Sie als Basis die Kniffe_Game file verwenden.
-- Umfangreiche Verfahren in der Bot-Strategie. (Insbesondere Methoden des Machine Learnings sind für die Erstellung einer künstlichen Intelligenz gut nutzbar.)
-- Ausführliche Rechenstudie.
+<ul>
+<li>Sie erstellen ein Interface, welches es einem beliebigen Spieler Erlaubt, selber gegen den Bot Kniffel zu spielen. (Jupyer Notebooks, oder TKinter etc. sind erlaubt) Hierbei sollten Sie als Basis die Kniffe_Game file verwenden.</li>
+<li>Umfangreiche Verfahren in der Bot-Strategie. (Insbesondere Methoden des Machine Learnings sind für die Erstellung einer künstlichen Intelligenz gut nutzbar.)</li>
+<li>Ausführliche Rechenstudie.</li>
+</ul>
