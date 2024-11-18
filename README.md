@@ -9,7 +9,7 @@ Dies soll einen erhöhten Fokus auf mehrfahre Kniffel-Würfe verhindern und den 
 <h1>Die Spiel-Files</h1>
 
 <h2>Kniffel_Game.py</h2>
-Hier befinden sich alle Funktionen, welche zur Simulation des Kniffe-Spiels verwendet werden.
+Hier befinden sich alle Funktionen, welche zur Simulation des Kniffel-Spiels verwendet werden.
 Diese Klasse wird am Tag der Präsentation und von uns zum Testen der Bots (KIs) verwendet.
 Daher sollten die Methoden der Klasse nicht verändert werden.
 Falls Ihnen während der Bearbeitung Bugs oder Exploits auffallen, bitte ich Sie, diese zu melden.
@@ -20,7 +20,7 @@ Die Kniffel_Player Klasse ist eine Klasse, welche MINDESTENS die zwei vorhandene
 In der ersten Methode wählen sie die Würfel, welche Sie zurücklegen möchten (siehe Regelwerk) und in der zweiten Methode wählen Sie welches Feld sie beschreiben möchten. 
 Die Details zu den Methoden und Datentypen sind in den jeweiligen Methodenbeschreibungen hinterlegt.
 Das Kniffel_Player Objekt bleibt über mehrere Spiele bestehen, was es ermöglicht, Attribute über mehrere Spiele zu speichern.
-Bei der Endrpäsentation wird es ein (für die Noten nicht direkt relevantes) Turnier aller Bots geben. Das Gewinnerteam erhält eine kleine Überraschung.
+Bei der Endpräsentation wird es ein (für die Noten nicht direkt relevantes) Turnier aller Bots geben. Das Gewinnerteam erhält eine kleine Überraschung.
 
 <h1>Zielsetzung</h1>
 <h2>Mindestanforderung</h2>
