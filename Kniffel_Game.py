@@ -25,7 +25,6 @@ class Kniffel_Game():
                     else:
                         kept_dices += dice_rolls
                 chosen_field = player.decide_which_field_to_enter(copy.deepcopy(scoreboard), copy.copy(kept_dices))
-                scoreboard = self.check_for_bonus_kniffel_points(scoreboard, player, kept_dices)
                 if self.player_makes_valid_field_choice(scoreboard, player, chosen_field):
                     scoreboard = self.update_scoreboard(scoreboard, player, chosen_field, kept_dices)
                 else:
@@ -49,28 +48,9 @@ class Kniffel_Game():
             score += player_scoreboard[field]
         if score >= 63:
             score += 35
-        for field in ["Dreierpasch", "Viererpasch", "Full House", "Kleine Straße", "Große Straße", "Kniffel", "Chance", "Kniffel Bonuspunkte"]:
+        for field in ["Dreierpasch", "Viererpasch", "Full House", "Kleine Straße", "Große Straße", "Kniffel", "Chance"]:
             score += player_scoreboard[field]
         return score
-
-    def check_for_bonus_kniffel_points(self, scoreboard, player, kept_dices):
-        ''' Grants the player 50 bonus points if he/she already has filled out the Kniffel field,
-        but has Kniffel again
-        Input:
-        - scoreboard: The scoreboard
-        Type: dict
-        - player: The player
-        Type: player
-        ketp_dices: The dice-values that the player has in the end
-        Type: list
-
-        Output:
-        - scoreboard: Scoreboard
-        Type: dict
-        '''
-        if scoreboard[player.name]["Kniffel"] != None and len(set(kept_dices)) == 1:
-            scoreboard[player.name]["Kniffel Bonuspunkte"] += 50
-        return scoreboard
 
     def write_zero_in_a_random_field(self, scoreboard, player):
         ''' This function writes overrides a single None type value in the dict
@@ -118,6 +98,9 @@ class Kniffel_Game():
         Type: player
         - chosen_field: The chosen field
         Type: str
+
+        Output:
+        Boolean: True if the field was valid and False if not
         '''
         try:
             if scoreboard[player.name][chosen_field] == None:
@@ -136,7 +119,7 @@ class Kniffel_Game():
         Type: list
         
         Output:
-        - Boolean: 1 if the choice is valid and 0 if not
+        - Boolean: True if the choice is valid and False if not
         '''
         freq2 = {}
         for item in dice_rolls:
@@ -253,6 +236,5 @@ class Kniffel_Game():
                                         "Große Straße": None,
                                         "Kniffel": None,
                                         "Chance": None,
-                                        "Kniffel Bonuspunkte": 0
                                        }
         return scoreboard
