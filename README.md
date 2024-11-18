@@ -19,6 +19,8 @@ Diese File dürfen uns sollten Sie Abändern.
 Die Kniffel_Player Klasse ist eine Klasse, welche MINDESTENS die zwei vorhandenen Methoden haben muss. <b>Sie dürfen nach belieben weitere Methoden und Attribute der Klasse hinzufügen.</b>
 In der ersten Methode wählen sie die Würfel, welche Sie zurücklegen möchten (siehe Regelwerk) und in der zweiten Methode wählen Sie welches Feld sie beschreiben möchten. 
 Die Details zu den Methoden und Datentypen sind in den jeweiligen Methodenbeschreibungen hinterlegt.
+Das Kniffel_Player Objekt bleibt über mehrere Spiele bestehen, was es ermöglicht, Attribute über mehrere Spiele zu speichern.
+Bei der Endrpäsentation wird es ein (für die Noten nicht direkt relevantes) Turnier aller Bots geben. Das Gewinnerteam erhält eine kleine Überraschung.
 
 <h1>Zielsetzung</h1>
 <h2>Mindestanforderung</h2>
