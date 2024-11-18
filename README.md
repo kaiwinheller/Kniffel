@@ -24,8 +24,10 @@ Bei der Endrpäsentation wird es ein (für die Noten nicht direkt relevantes) Tu
 
 <h1>Zielsetzung</h1>
 <h2>Mindestanforderung</h2>
-- Sie erstellen zwei Bots für das Kniffel Spiel, und lassen diese in einer Simulationsstudie gegeneinander antreten. Die Bots dürfen aufeinander aufbauen.
-- Sie erstellen eine Präsentation (ca. 20 Minuten) über die Erstellung und Vorgehensweise der Bots. Dabei kann sowohl der Werdegang erläutert werden, als auch auf Gründe für bestimmte Strategien eingegangen werden. Zusätzlich sollte in der Präsentation auf die Simulationsstudie eingegangen werden. Hierbei ist empfohlen, Matplotlib für die Visualisierung der Ergebnisse zu verwenden.
+<ul>
+  <li>Sie erstellen zwei Bots für das Kniffel Spiel, und lassen diese in einer Simulationsstudie gegeneinander antreten. Die Bots dürfen aufeinander aufbauen.</li>
+  <li>Sie erstellen eine Präsentation (ca. 20 Minuten) über die Erstellung und Vorgehensweise der Bots. Dabei kann sowohl der Werdegang erläutert werden, als auch auf Gründe für bestimmte Strategien eingegangen werden. Zusätzlich sollte in der Präsentation auf die Simulationsstudie eingegangen werden. Hierbei ist empfohlen, Matplotlib für die Visualisierung der Ergebnisse zu verwenden.</li>
+</ul>
 
 <h2>Möglichkeiten zur Erweiterung</h2>
 - Sie erstellen ein Interface, welches es einem beliebigen Spieler Erlaubt, selber gegen den Bot Kniffel zu spielen. (Jupyer Notebooks, oder TKinter etc. sind erlaubt) Hierbei sollten Sie als Basis die Kniffe_Game file verwenden.
