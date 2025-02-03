@@ -3,7 +3,7 @@ import Kniffel_Player
 
 if __name__ == '__main__':
     # Player 1
-    player_1 = Kniffel_Player.Kniffel_Player_2('Seb')
+    player_1 = Kniffel_Player.Kniffel_Player('Seb')
     # Player 2
     player_2 = Kniffel_Player.Kniffel_Player('Tom')
 
